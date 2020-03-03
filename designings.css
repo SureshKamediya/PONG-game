@@ -1,0 +1,71 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+body{
+    background-color: cyan;
+
+}
+
+.container{
+    width:1000px;
+    height: 600px;
+    border:3px solid black;
+    background-color: rgb(207, 87, 231);
+    background: url(pongc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+	margin:0px auto;
+}
+
+.c1{
+    text-align: center;
+    border:3px ridge rgb(10, 10, 31);
+    border-radius: 3px;
+    padding:10px;
+    margin-top:200px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right:250px ;
+    background-color:rgb(213, 235, 90);
+}
+.c2{
+    text-align: center;
+    border:3px ridge rgb(10, 10, 31);
+    border-radius: 3px;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right:250px ;
+    background-color: rgb(213, 235, 90);
+}
+
+a{
+	color:green;
+	text-decoration:none;
+}
+
+a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+a:active{
+	color:purple;
+	text-decoration:underline;
+} 
+
+a:visited{
+	color:#ff0000;
+	text-decoration:none;
+}
+
+#i1{
+    text-align: center;
+    font-size: 100px;
+    color: mediumvioletred;
+    font-style: italic;
+    text-decoration: underline;
+}
