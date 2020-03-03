@@ -1,0 +1,34 @@
+@import url("webgl-tutorials.css");
+body {
+  margin: 0;
+}
+canvas {
+  background:url(pgbp.jpg);
+  background-size: cover;
+  width: 1534px;
+  height: 500px;
+  display: block;
+}
+
+#st{
+  text-align: center;
+  width: 200px;
+  background-color: yellow;
+  margin-top:10px;
+  margin-left:605px;
+  margin-right:800px;
+}
+#score1{
+  float:left;
+  background-color: turquoise;
+  margin-left:400px;
+}
+
+#score2{
+  float:left;
+  background-color: turquoise;
+  margin-left:400px;
+}
+
+
+
