@@ -281,7 +281,7 @@ function main() {
           window.clearInterval(ID6);
           smallright();
           document.getElementById("score2").innerHTML="Score(II)="+score2;
-          if(seconds>=60)
+          if(seconds>=80)
           {
             document.getElementById("win").innerHTML="<h2>Game Over!!<h2><p>You won</p> <button onclick=\"reload()\">Play Again</button>"
             score2=0;
