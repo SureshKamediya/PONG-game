@@ -41,21 +41,21 @@ void main() {
 `;
 
     var k=50;
-    var l=20;
+    var l=15;
     function Easy()
     {
       k=50;
-      l=20;
+      l=15;
     }
     function Medium()
     {
       k=20;
-      l=30;
+      l=20;
     }
     function Hard()
     {
       k=10;
-      l=50;
+      l=30;
     }
 
 function main()
@@ -293,8 +293,8 @@ function main()
         otherrect();
         firstrect(y11);
         secondrect(y22);
-        if(x33==595&&y33>=y11&&y33<y11+120)
-          smallleft();
+        if(x33==595)
+          x33=x33+100;
         else if(x33<795)
           smallrect(x33=x33+10,y33);
         else if(x33==795)
@@ -341,9 +341,9 @@ function main()
         otherrect();
         firstrect(y11);
         secondrect(y22);
-        if(x33==805&&y33>=y22&&y33<y22+120)
+        if(x33==805)
         {
-            smallright();
+            x33=x33-100;
         }
         else if(x33>=615)
           smallrect(x33=x33-10,y33);
