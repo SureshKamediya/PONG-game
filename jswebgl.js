@@ -293,7 +293,7 @@ function main()
         otherrect();
         firstrect(y11);
         secondrect(y22);
-        if(x33==595)
+        if(x33==585)
           x33=x33+100;
         else if(x33<795)
           smallrect(x33=x33+10,y33);
@@ -341,7 +341,7 @@ function main()
         otherrect();
         firstrect(y11);
         secondrect(y22);
-        if(x33==805)
+        if(x33==815)
         {
             x33=x33-100;
         }
