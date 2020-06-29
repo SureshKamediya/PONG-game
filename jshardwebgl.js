@@ -40,21 +40,21 @@ void main() {
 }
 `;
     var k=50;
-    var l=20;
+    var l=15;
     function Easy()
     {
       k=50;
-      l=20;
+      l=15;
     }
     function Medium()
     {
       k=20;
-      l=30;
+      l=20;
     }
     function Hard()
     {
       k=10;
-      l=50;
+      l=30;
     }
 
 function main() {
@@ -242,8 +242,8 @@ function main() {
       ID5=window.setInterval(function(){
         otherrect();
         firstrect(y11);
-        if(x33==595&&y33>=y11&&y33<y11+120)
-          smallleft();
+        if(x33==585)
+          x33=x33+100;
         else if(x33<815)
           smallrect(x33=x33+10,y33);
         else
